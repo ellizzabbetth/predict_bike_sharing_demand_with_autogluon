@@ -59,3 +59,13 @@ pip install jupyterlab
 
 ## License
 [License](LICENSE.txt)
+
+
+##  Direction
+
+Run command and get latest. 
+### https://www.youtube.com/watch?v=K3ngZKF31mc
+
+```
+aws iam list-roles|grep SageMaker-Execution
+```
