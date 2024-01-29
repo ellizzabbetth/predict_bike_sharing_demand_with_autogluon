@@ -1,12 +1,13 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Elizabeth Bradley
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
 TODO: Add your explanation
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+The top-ranked model that performed was the hyperparameter optimized model, hpo_model. This model 
+employed the X algorithm with a validation RMSE score of Y.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?

@@ -69,3 +69,23 @@ Run command and get latest.
 ```
 aws iam list-roles|grep SageMaker-Execution
 ```
+
+
+## Stand Out Suggestions
+You completed the project notebook and wrote the report, but you are still looking for making your project even better. Here are some standout suggestions you might want to try. Remember these are optional, if you would rather submit your work as is that is perfectly fine, just skip the checklist below. Here are some suggestions that may be great themes for standout suggestions.
+
+### Add more than one feature to the dataset and train models to see if it imporves the Kaggle score
+
+### Perform mulptile rounds of hyperparameter tuning to see if it improves Kaggle's score
+
+### Visualizations
+- Time series of bike-sharing demand
+- Plot correlation matrix of all features *Heatmap or scatter plot
+- Plot model trining performnce with more than just the top model
+
+
+
+
+
+
+
