@@ -61,7 +61,17 @@ pip install jupyterlab
 [License](LICENSE.txt)
 
 
-##  Direction
+##  Directions
+
+Paste the Github link of the repository. Use this link to clone the repository:
+
+nd009t-c1-intro-to-ml-project-starter
+
+It may ask you which kernel you want to use, please make sure you are using the Python 3 (MXNet 1.8 Python 3.7 CPU Optimized) Kernel.
+
+It is recommended to use the ml.t3.medium (2v CPU, 4 GiB Memory) instance that is the default upon startup. While you can select a higher instance type, this instance should suffice.
+
+Before leaving your Sagemaker Studio workspace, always be sure to shut down all running instances and kernels. You access the running instances on the left hand side tool bar.
 
 Run command and get latest. 
 ### https://www.youtube.com/watch?v=K3ngZKF31mc
@@ -70,6 +80,22 @@ Run command and get latest.
 aws iam list-roles|grep SageMaker-Execution
 ```
 
+
+```
+conda activate base
+```
+
+cd into directory where project.ipynb
+```
+jupyter nbconvert --to html --execute notebook_name.ipynb --ExecutePreprocessor.kernel_name=python3
+
+jupyter nbconvert --to html project.ipynb
+```
+
+
+  File "/opt/conda/lib/python3.10/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda_python3
 
 ## Stand Out Suggestions
 You completed the project notebook and wrote the report, but you are still looking for making your project even better. Here are some standout suggestions you might want to try. Remember these are optional, if you would rather submit your work as is that is perfectly fine, just skip the checklist below. Here are some suggestions that may be great themes for standout suggestions.

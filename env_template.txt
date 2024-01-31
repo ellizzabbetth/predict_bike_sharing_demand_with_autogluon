@@ -1,0 +1,4 @@
+KAGGLE_USERNAME=
+KAGGLE_KEY=
+ROLE=arn:aws:iam::XXXX:role/service-role/AmazonSageMaker-ExecutionRole-XXXX
+GITHUB_TOKEN=
