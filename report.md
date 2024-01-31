@@ -38,7 +38,7 @@ I would search for additional features to explain bike rental demand. This would
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_train_score.png](img/model_train_score.png)
 
