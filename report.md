@@ -8,7 +8,7 @@ The initial realization was that the AutoGluon Tabular Prediction preset 'best q
 
 
 ### What was the top ranked model that performed?
-The top-ranked model that performed was the hyperparameter optimized model, hpo_model. This model employed the X algorithm with a validation RMSE score of Y.
+The top-ranked model that performed was the hyperparameter optimized model, hpo_model. This used the WeightedEnsemble_L2 model with a validation RMSE score of 35.594567.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -17,7 +17,7 @@ Creating a histogram of all features the datetime distrubtion stood out. Every d
 Indeed splitting the datetime feature into hour yielded significance insights into the relationship between time and bike rental demand. A bar char of count vs hour visually depicts this relationship. Based on this data, bike rental demand peaked at 8 am and 5 pm. This suggest people rent bikes to go to work.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-After adding the new features the model performed much better with a RMSE value of 34.933 and a Kaggle score of 0.51653. The hour of the day seems to be the primary driver of bike rental demand
+After adding the new features the model performed much better with a RMSE value of 34.933 and a Kaggle score of 0.51653. The hour of the day seems to be the primary driver of bike rental demand.
 
 
 
